@@ -1,0 +1,11 @@
+name: TaberAddon-GeneralCommands
+author: Sam Taber and Josh Hanson
+version: 0.0.1
+main: com.tabercore.addon.main.GeneralCommands
+commands:
+    fly:
+      description: Enables fly on a player.
+    gamemode:
+        aliases: [gm, gmode]
+        description: Changes a players gamemode.
+depends: [TaberCore]
